@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant menu</title>
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        /*universal selector*/
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #logo{
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        .special{
+            background: rgba(0, 0, 0, 0.1);
+        }
+        h2{
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+        }
+        footer{
+            background: hsl(200, 50%, 40%);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <header><h1 id="logo">shukri restaurant</h1></header> 
+   <nav>
+    <ul>
+        <li><a href="index.html">home</a></li>&nbsp;
+        <li><a href="menu.html">menu</a></li>&nbsp;
+    </ul>
+   </nav>
+   <main>
+    <h2>our menu</h2>
+    <div class="special">
+    <h3>today's special</h3>
+    <p>baked chicken with banana</p>
+    </div>
+    <h3>menu items</h3>
+    <dl>
+        <dt>pizza</dt>
+        <dd>cheese pizza with extra meat</dd>
+        <dt>buger</dt>
+        <dd>bread with meat and some sauce</dd>
+        <dt>somali pasta</dt>
+        <dd>pasta with sauce and banana</dd>
+    </dl>
+   </main>
+   <footer>
+    <p>&copy; all rights of shukri 2026</p>
+   </footer>
+</body>
+</html>
